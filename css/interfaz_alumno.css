@@ -1,0 +1,41 @@
+.contenedor .registro {
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.horario {
+    margin-top: 30px;
+    background: #cfcff7;
+    padding: 30px;
+    margin-bottom: 30px;   
+    max-width: 600px;
+    width: 100%;
+}
+
+.horario .materia,
+.horario .laboratorio,
+.horario .profesor {
+    width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+.horario input[type="text"]{
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.horario button[type="submit"]{
+    font-size: 20px;
+    color: #000;
+    background: rgb(21, 173, 72);
+}

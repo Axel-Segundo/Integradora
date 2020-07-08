@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+    background: #c0bfbf;
+}
+.contenedor {
+	max-width: 1250px;
+	width: 90%;
+	margin: auto;
+}
+
+footer {
+	background: #f05011;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+footer .informacion {
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
+}
+

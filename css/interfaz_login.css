@@ -1,0 +1,77 @@
+/* --- Login -- */
+
+.contenedor-form {
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+.formulario {
+    margin-top: 30px;
+    background: #cfcff7;
+    padding: 30px;
+    margin-bottom: 30px;   
+    max-width: 600px;
+    width: 100%;
+}
+
+.formulario .usuario,
+.formulario .password {
+	width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .icono {
+    padding: 15px;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.formulario .submit-btn {
+    padding: 15px;
+    font-size: 18px;
+    background: #038f2d;
+}
+.formulario .password_btn {
+	width: calc(100% - 105px);
+}
+.formulario input[type="text"],
+.formulario input[type="password"] {
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	border: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.contenedor-inv {
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+    margin-bottom: 80px;
+}
+
+.contenedor-inv .alumno {
+    text-align: center;
+	font-size: 14px;
+    padding: 15px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.contenedor-inv .alumno .uv {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.contenedor-inv .alumno .uv:hover {
+    color: blue;
+}

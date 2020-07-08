@@ -1,0 +1,24 @@
+/* --- header de login y alumno --- */
+
+header {
+    background: #038f2d;
+}
+header .contenedor{
+    overflow: hidden;
+}
+
+header .contenedor .logo {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .contenedor .logo2 {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .contenedor .logo img,
+header .contenedor .logo2 img {
+    max-height: 85px;
+    max-width: 100%;
+}
