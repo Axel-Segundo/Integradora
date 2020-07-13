@@ -22,6 +22,12 @@
         </div>
     </header>
     <div class="contenedor">
+        <div class="busqueda">
+            <h1 class="titulo">Buscar</h1>
+            <p class="parrafo">Ningún campo es obligatorio, puedes llenar solamente uno :)</p>
+        </div>
+    </div>
+    <div class="contenedor">
         <div class="registro">
             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>"  method="POST" class="horario" name="login">
                 <div class="forma2">
