@@ -7,6 +7,10 @@
 }
 
 /* --- header contenido de profesor --- */
+header .contenedor {
+overflow: hidden;
+}
+
 header .contenedor .menu {
   float: right;
 }
