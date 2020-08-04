@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/header_profesor.css">
-    <link rel="stylesheet" href="css/header.css">
-    <title>Edición</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/header_profesor.css">
+
+
+    <title>Inicio</title>
 </head>
+
 <body>
-<header>
+
+    <header>
         <div class="contenedor">
             <div class="logo">
-                <img src="imagenes/logo.jpg" alt="">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="">Crear registro</a></li>
-                    <li><a href="">Mis registros</a></li>
-                    <li><a href="">Consultar registros</a></li>
-                    <li><a href="">Crear usuario</a></li>
-                </ul>
+                <img src="../imagenes/logo.jpg" alt="">
+                <nav class="menu">
+                    <a href="">Mi Horario</a>
+                    <a href="">Buscar</a>
+                    <a href="">Mi Perfil</a>
+                </nav>
             </div>
         </div>
     </header>
-    <?php require 'footer.php' ?>
+
+    <section class="main">
+        <section class="laboratorios">
+            <div class="contenedor">
+                <h3 class="titulo">Laboratorios</h3>
+                <div class="contenedor-laboratorios">
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/redes1.png" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Redes 1
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="#" class="nombre">
+                                Redes 2
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/oracle.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Oracle
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/iot.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                IOT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Multimedia 1
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Multimedia 2
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+
+
+
+    <footer>
+        <?php require 'footer.php' ?>
+    </footer>
 </body>
+
 </html>

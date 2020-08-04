@@ -1,24 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /* --- header contenido de profesor --- */
-header .contenedor .menu{
-    float: right;
+header .contenedor .menu {
+  float: right;
 }
 
-header .contenedor .menu ul{
-    margin-bottom: 10px;
-    margin-top: 10px;
+header .contenedor .logo img {
+
+  width: auto;
+  border-radius: 5px;
 }
 
-header .contenedor .menu ul li{
-    display: inline-block;
-    line-height: 70px;
-    margin-right: 5px;
-}
-header .contenedor .menu ul li a {
-    text-decoration: none;
-    color: #fff;
+
+/* ------ Body-----*/
+
+.main .laboratorios {
+  background: #f3f3f3;
+  padding: 60px 0;
 }
 
-header .contenedor .menu ul li a:hover{
-    text-decoration: underline;
+.main .laboratorios .contenedor {
+  overflow: hidden;
+}
+
+.main .laboratorios .contenedor .titulo {
+  font-size: 34px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #323068;
+  text-align: center;
+  line-height: 30px;
+}
+.main .laboratorios .contenedor-laboratorios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .laboratorios .contenedor-laboratorios .lab {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .thumb {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .thumb img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .descripcion {
+  text-align: center;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .nombre {
+  font-weight: 700;
+  color: #3895ea;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .categoria {
+  font-size: 14ps;
+  color: #636363;
 }
