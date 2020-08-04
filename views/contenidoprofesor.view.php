@@ -21,7 +21,7 @@
                 <nav class="menu">
                     <a href="">Mi Horario</a>
                     <div class="perfil  ">
-                        <img src="../avatar/defect.jpg" alt="" width="40" height="40">
+                        <img src="../avatar/defect.jpg" alt="">
                     <a href="">Perfil</a>
                     </div>
                     
