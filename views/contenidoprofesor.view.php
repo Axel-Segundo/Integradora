@@ -20,8 +20,11 @@
                 <img src="../imagenes/logo.jpg" alt="">
                 <nav class="menu">
                     <a href="">Mi Horario</a>
-                    <a href="">Buscar</a>
-                    <a href="">Mi Perfil</a>
+                    <div class="perfil  ">
+                        <img src="../avatar/defect.jpg" alt="" width="40" height="40">
+                    <a href="">Perfil</a>
+                    </div>
+                    
                 </nav>
             </div>
         </div>

@@ -12,11 +12,12 @@ header .contenedor .menu {
 }
 
 header .contenedor .logo img {
-
-  width: auto;
+  width: 200px;
   border-radius: 5px;
 }
-
+header .contenedor .menu .perfil img{
+  border-radius: 30px;
+}
 
 /* ------ Body-----*/
 

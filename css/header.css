@@ -21,4 +21,5 @@ header .contenedor .logo img,
 header .contenedor .logo2 img {
     max-height: 85px;
     max-width: 100%;
+    border-radius: 3px;
 }
