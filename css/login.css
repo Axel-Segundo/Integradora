@@ -1,3 +1,30 @@
+/* --- header --- */
+
+header {
+    background: #038f2d;
+}
+header .contenedor{
+    overflow: hidden;
+}
+
+header .contenedor .logo {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .contenedor .logo2 {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header .contenedor .logo img,
+header .contenedor .logo2 img {
+    max-height: 85px;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+
 /* --- Login -- */
 
 .contenedor-form {
@@ -5,6 +32,7 @@
     margin: auto;
     max-width: 600px;
     margin-top: 100px;
+    
 }
 
 .formulario {
@@ -14,6 +42,7 @@
     margin-bottom: 30px;   
     max-width: 600px;
     width: 100%;
+    border-radius: 5px;
 }
 
 .formulario .usuario,

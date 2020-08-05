@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* --- header contenido de profesor --- */
+header {
+  background: #038f2d;
+  
+}
+header .contenedor {
+  width: 100%;
+  display: flex;
+  padding: 5px 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .contenedor .titulo {
+  font-size: 34px;
+  font-weight: 300;
+  color: #323068;
+}
+
+header .menu .menup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+header .menu .menup .perfil{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .contenedor .menu img {
+  width: 30px;
+  border-radius: 30px;
+  display: block;
+  margin: 5px;
+}
+
+
+header .contenedor .menu ul {
+  list-style: none;
+  border-radius: 5px;
+
+  border: #000;
+}
+header .contenedor .menu .menup > li {
+  position: relative;
+  display: inline-block;
+}
+header .contenedor .menu .menup > li  a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+}
+header .contenedor .menu .menup > li  a:hover {
+  color: #3895ea;
+  transition: all 0.3s;
+}
+header .contenedor .menu .menup .subm {
+  width: 110%;
+  height: auto;
+  position: absolute;
+  background: #f2f2f2;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+header .contenedor .menu .menup .subm li a {
+  display: block;
+  padding: 15px;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+header .contenedor .menu .menup li:hover .subm {
+  visibility: visible;
+  opacity: 1;
+}
+
+header .contenedor .logo img {
+  width: 120px;
+  border-radius: 5px;
+}
+
+
+/* ------ Body-----*/
+body{
+  background: #c1c7cc;
+}
+
+.main .laboratorios {
+  background: none;
+  padding: 60px 0ox;
+  margin: 80px;
+}
+
+.main .laboratorios .contenedor {
+  overflow: hidden;
+
+}
+
+.main .laboratorios .contenedor-laboratorios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .laboratorios .contenedor-laboratorios .lab {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .thumb {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .thumb img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .descripcion {
+  text-align: center;
+}
+
+.main .laboratorios .contenedor-laboratorios .lab .nombre {
+  font-weight: 700;
+  color: #3895ea;
+  margin-bottom: 10px;
+  text-decoration: none;
+}

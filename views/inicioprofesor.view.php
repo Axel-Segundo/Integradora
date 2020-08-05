@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/header_profesor.css">
+    <link rel="stylesheet" href="../css/inicio_profesor.css">
 
 
     <title>Inicio</title>
@@ -18,22 +18,35 @@
         <div class="contenedor">
             <div class="logo">
                 <img src="../imagenes/logo.jpg" alt="">
-                <nav class="menu">
-                    <a href="">Mi Horario</a>
-                    <div class="perfil  ">
-                        <img src="../avatar/defect.jpg" alt="">
-                    <a href="">Perfil</a>
-                    </div>
-                    
-                </nav>
             </div>
+            <div>
+                <h3 class="titulo">Laboratorios</h3>
+            </div>
+            <div class="menu">
+                <ul class="menup">
+                    <li><a href="">Mi Horario</a></li>
+                    <li>
+                        <div>
+                            <a href=""  class="perfil">
+                                <p> Perfil</p>
+                                <div><img src="../avatar/defect.jpg" alt=""></div>
+                            </a>
+                        </div>
+                        <ul class="subm">
+                            <li><a href="">Configuracion</a></li>
+                            <li><a href="">Cerrar Sesion</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </header>
 
     <section class="main">
         <section class="laboratorios">
             <div class="contenedor">
-                <h3 class="titulo">Laboratorios</h3>
+
                 <div class="contenedor-laboratorios">
                     <div class="lab">
                         <div class="thumb">
