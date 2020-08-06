@@ -1,8 +1,3 @@
-body {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: column;
-}
 header {
   background: #038f2d;
 }

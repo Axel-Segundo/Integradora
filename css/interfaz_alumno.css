@@ -1,46 +1,88 @@
-.contenedor .busqueda{
-    text-align: center;
-    margin-top: 20px;
-    color: rgb(42, 54, 226);
-}
-.contenedor .registro {
-    width: 90%;
-    margin: auto;
-    max-width: 600px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
 
-.horario {
-    margin-top: 30px;
-    background: #cfcff7;
-    padding: 30px;
-    margin-bottom: 30px;   
-    max-width: 600px;
+header {
+    background: #038f2d;
+  }
+  header .contenedor {
     width: 100%;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header .contenedor img {
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px 20px;
+  }
+  header .contenedor a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+    padding: 30px;
+    align-self: flex-end;
+  }
+  header .contenedor a:hover {
+    color: #ea9738;
+    text-decoration: underline;
+    transition: all 0.3s;
+  }
 
-.horario .materia,
-.horario .laboratorio,
-.horario .profesor {
-    width: calc(100% - 52px);
-	-webkit-border-radius: 0 3px 3px 0;
-	-moz-border-radius: 0 3px 3px 0;
-	-ms-border-radius: 0 3px 3px 0;
-	-o-border-radius: 0 3px 3px 0;
-	border-radius: 0 3px 3px 0;
-}
-.horario input[type="text"]{
-	padding: 15px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px;
-	line-height: 18px;
-	border: none;
-    vertical-align: top;
+
+
+body{
+    background: rgb(255, 255, 255);
+  }
+  
+  .main .laboratorios {
+    background: none;
+    padding: 60px 0ox;
+    margin: 55px 80px 10px 80px;
+  }
+  
+  .main .laboratorios .contenedor {
+    overflow: hidden;
+  
+  }
+  
+  .main .laboratorios .contenedor-laboratorios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main .laboratorios .contenedor-laboratorios .lab {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .main .laboratorios .contenedor-laboratorios .lab .thumb {
+    width: 100%;
     margin-bottom: 10px;
-}
-.horario button[type="submit"]{
-    font-size: 20px;
-    color: #000;
-    background: rgb(21, 173, 72);
-}
+  }
+  
+  .main .laboratorios .contenedor-laboratorios .lab .thumb img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 5px;
+    opacity: 0.8;
+    transition: opacity .5s;
+    border: 3px solid #3894ea00;
+  }
+  .main .laboratorios .contenedor-laboratorios .lab .thumb img:hover{
+    opacity: 1;
+    border: 3px solid #3895ea;
+  }
+  
+  .main .laboratorios .contenedor-laboratorios .lab .descripcion {
+    text-align: center;
+  }
+  
+  .main .laboratorios .contenedor-laboratorios .lab .nombre {
+    font-weight: 700;
+    color: #e43f0d;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
