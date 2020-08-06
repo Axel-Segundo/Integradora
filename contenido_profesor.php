@@ -13,6 +13,6 @@ if(isset($_SESSION['usuario'])){
 }
 
 
-require 'views/contenidoprofesor.view.php';
+require 'views/inicioprofesor.view.php';
 
 ?>

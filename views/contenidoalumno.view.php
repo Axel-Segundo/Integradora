@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/interfaz_alumno.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Contenido</title>
 </head>
 <body>
