@@ -1,3 +1,24 @@
+
+header {
+    background: #038f2d;
+    
+  }
+  header .contenedor {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .contenedor .logo img {
+    width: 40px;
+    border-radius: 30px;
+  }
+
+
+
+
 body{
     background: rgb(255, 255, 255);
   }
@@ -5,7 +26,7 @@ body{
   .main .laboratorios {
     background: none;
     padding: 60px 0ox;
-    margin:80px ;
+    margin: 55px 80px 10px 80px;
   }
   
   .main .laboratorios .contenedor {
@@ -52,4 +73,3 @@ body{
     margin-bottom: 10px;
     text-decoration: none;
   }
-  
