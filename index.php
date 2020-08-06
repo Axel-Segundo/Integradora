@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/log.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
 </head>
 
