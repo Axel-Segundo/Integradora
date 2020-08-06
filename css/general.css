@@ -11,11 +11,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
     
 }
-/*.contenedor {
+.contenedor {
 	max-width: 1250px;
 	width: 90%;
 	margin: auto;
-}*/
+}
 
 footer {
 	background: #f05011;

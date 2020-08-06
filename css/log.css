@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+}
+header {
+  background: #038f2d;
+}
+header .contenedor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .contenedor img {
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px 20px;
+}
+header .contenedor a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  margin: auto;
+  padding: 30px;
+  align-self: flex-end;
+}
+header .contenedor a:hover {
+  color: #ea9738;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+/* Formulario*/
+
+.contenedor-form {
+  width: 100%;
+  width: 500px;
+  margin: 11.98% auto;
+}
+
+.formulario {
+  margin: auto;
+  background: #cfcff7;
+  padding: 30px;
+  width: 500px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.formulario .usuario,
+.formulario .password {
+  width: calc(100% - 52px);
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+.formulario .icono {
+  padding: 15px;
+  font-size: 18px;
+  line-height: 18px;
+  border: none;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.formulario .submit-btn {
+  padding: 15px;
+  font-size: 18px;
+  background: #038f2d;
+}
+.formulario .password_btn {
+  width: calc(100% - 105px);
+}
+.formulario input[type="text"],
+.formulario input[type="password"] {
+  padding: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  border: none;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.contenedor-inv {
+  width: 90%;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 80px;
+}
+
+.contenedor-inv .alumno {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0;
+  color: #000;
+  font-weight: bold;
+}
+
+.contenedor-inv .alumno .uv {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+.contenedor-inv .alumno .uv:hover {
+  color: blue;
+}
+
+footer {
+  justify-self: flex-end;
+}

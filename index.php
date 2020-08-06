@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/log.css">
     <title>Login</title>
 </head>
 
 <body>
     <header>
         <div class="contenedor">
-            <div class="logo">
+            <div>
                 <img src="imagenes/logo.jpg" alt="">
             </div>
-            <div class="logo2">
-                <img src="imagenes/Tlax.png" alt="">
+            <div    >
+                <a href="contenido_alumno.php">Invitado</a>
             </div>
         </div>
     </header>
@@ -32,12 +32,7 @@
                 <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
             </div>
         </form>
-        <div class="contenedor-inv">
-            <div class="alumno">
-                <p>Si usted no cuenta con un usuario, favor de ingresar aqui</p></br>
-                <a href="contenido_alumno.php" class="uv">Usuario invitado</a>
-            </div>
-        </div>
+
     </div>
     <?php require 'views/footer.php'; ?>
 </body>
