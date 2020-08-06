@@ -17,11 +17,9 @@
     <header>
         <div class="contenedor">
             <div class="logo">
-                <img src="../imagenes/logo.jpg" alt="">
+                <img src="../imagenes/logo2.jpg" alt="">
             </div>
-            <div>
-                <h3 class="titulo">Laboratorios</h3>
-            </div>
+            
             <div class="menu">
                 <ul class="menup">
                     <li><a href="">Mi Horario</a></li>
@@ -53,7 +51,7 @@
                             <a href="#"><img src="../imagenes/lab/redes1.png" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
-                                Redes 1
+                                Redes I
                             </a>
                         </div>
                     </div>
@@ -63,7 +61,7 @@
                             <a href="#"><img src="../imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="#" class="nombre">
-                                Redes 2
+                                Redes II
                             </a>
                         </div>
                     </div>
@@ -90,7 +88,7 @@
                             <a href="#"><img src="../imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
-                                Multimedia 1
+                                Multimedia
                             </a>
 
                         </div>
@@ -100,7 +98,7 @@
                             <a href="#"><img src="../imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
-                                Multimedia 2
+                                Desarrollo
                             </a>
                         </div>
                     </div>

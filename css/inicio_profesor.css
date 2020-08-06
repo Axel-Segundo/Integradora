@@ -14,16 +14,23 @@ header {
 header .contenedor {
   width: 100%;
   display: flex;
-  padding: 5px 20px;
+  padding: 0px 20px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
+header .contenedor .logo img {
+  width: 40px;
+  border-radius: 30px;
+}
+
 header .contenedor .titulo {
   font-size: 34px;
   font-weight: 300;
   color: #323068;
 }
+
+
 
 header .menu .menup {
   display: flex;
@@ -47,9 +54,8 @@ header .contenedor .menu img {
 
 header .contenedor .menu ul {
   list-style: none;
-  border-radius: 5px;
+  
 
-  border: #000;
 }
 header .contenedor .menu .menup > li {
   position: relative;
@@ -62,7 +68,7 @@ header .contenedor .menu .menup > li  a {
   margin: 10px;
 }
 header .contenedor .menu .menup > li  a:hover {
-  color: #3895ea;
+  color: #ea9738;
   transition: all 0.3s;
 }
 header .contenedor .menu .menup .subm {
@@ -73,14 +79,24 @@ header .contenedor .menu .menup .subm {
   visibility: hidden;
   opacity: 0;
   transition: opacity 1.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(61, 55, 55);
+ 
+
 }
 
 header .contenedor .menu .menup .subm li a {
   display: block;
-  padding: 15px;
+  padding: 15x;
   font-size: 10px;
+  color: rgb(158, 134, 134);
+  
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
+}
+header .contenedor .menu .menup .subm li a:hover {
+color: #e43f0d;
+transition: .5s;
 }
 
 header .contenedor .menu .menup li:hover .subm {
@@ -88,21 +104,18 @@ header .contenedor .menu .menup li:hover .subm {
   opacity: 1;
 }
 
-header .contenedor .logo img {
-  width: 120px;
-  border-radius: 5px;
-}
+
 
 
 /* ------ Body-----*/
 body{
-  background: #c1c7cc;
+  background: rgb(255, 255, 255);
 }
 
 .main .laboratorios {
   background: none;
   padding: 60px 0ox;
-  margin: 80px;
+  margin: 55px 80px 10px 80px;
 }
 
 .main .laboratorios .contenedor {
@@ -118,7 +131,7 @@ body{
 }
 .main .laboratorios .contenedor-laboratorios .lab {
   width: 30%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .main .laboratorios .contenedor-laboratorios .lab .thumb {
@@ -130,6 +143,13 @@ body{
   width: 100%;
   vertical-align: top;
   border-radius: 5px;
+  opacity: 0.8;
+  transition: opacity .5s;
+  border: 3px solid #3894ea00;
+}
+.main .laboratorios .contenedor-laboratorios .lab .thumb img:hover{
+  opacity: 1;
+  border: 3px solid #3895ea;
 }
 
 .main .laboratorios .contenedor-laboratorios .lab .descripcion {
@@ -138,7 +158,7 @@ body{
 
 .main .laboratorios .contenedor-laboratorios .lab .nombre {
   font-weight: 700;
-  color: #3895ea;
+  color: #e43f0d;
   margin-bottom: 10px;
   text-decoration: none;
 }
