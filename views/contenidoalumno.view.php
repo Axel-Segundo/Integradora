@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/interfaz_alumno.css">
+    <link rel="stylesheet" href="../css/interfaz_alumno.css">
     <title>Contenido</title>
 </head>
 <body>
@@ -21,30 +20,72 @@
             </div>
         </div>
     </header>
-    <div class="contenedor">
-        <div class="busqueda">
-            <h1 class="titulo">Buscar</h1>
-            <p class="parrafo">Ningún campo es obligatorio, puedes llenar solamente uno :)</p>
-        </div>
-    </div>
-    <div class="contenedor">
-        <div class="registro">
-            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>"  method="POST" class="horario" name="login">
-                <div class="forma2">
-                    <input type="text" name="materia" class="materia" placeholder="Ingresa la materia">
+    <section class="main">
+        <section class="laboratorios">
+            <div class="contenedor">
+
+                <div class="contenedor-laboratorios">
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/redes1.png" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Redes I
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="#" class="nombre">
+                                Redes II
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/oracle.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Oracle
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/iot.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                IOT
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Multimedia
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="lab">
+                        <div class="thumb">
+                            <a href="#"><img src="../imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
+                        <div class="descripcion">
+                            <a href="" class="nombre">
+                                Desarrollo
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="forma2">
-                    <input type="text" name="laboratorio" class="laboratorio" placeholder="Ingresa el laboratorio">
-                </div>
-                <div class="forma2">
-                    <input type="text" name="profesor" class="profesor" placeholder="Ingresa el nombre del profesor">
-                </div>
-                <div class="forma2">
-                    <button type="submit">Consultar</button>
-                </div>
-            </form>
-        </div>
-    </div>
+            </div>
+        </section>
+    </section>
     <?php require 'footer.php'; ?>
 </body>
 </html>
