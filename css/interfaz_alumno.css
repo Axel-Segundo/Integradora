@@ -1,21 +1,34 @@
 
 header {
     background: #038f2d;
-    
   }
   header .contenedor {
     width: 100%;
     display: flex;
-    padding: 0px 20px;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
   }
-  header .contenedor .logo img {
-    width: 40px;
-    border-radius: 30px;
+  
+  header .contenedor img {
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px 20px;
   }
-
+  header .contenedor a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+    padding: 30px;
+    align-self: flex-end;
+  }
+  header .contenedor a:hover {
+    color: #ea9738;
+    text-decoration: underline;
+    transition: all 0.3s;
+  }
 
 
 

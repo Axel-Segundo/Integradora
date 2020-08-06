@@ -19,7 +19,7 @@
                 <img src="../imagenes/logo.jpg" alt="">
             </div>
             <div>
-                <a href="contenido_alumno.php">Inicio</a>
+                <a href="../index.php">Inicio</a>
             </div>
         </div>
     </header>
