@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/inicio_profesor.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/inicio_profesor.css">
 
 
     <title>Inicio</title>
@@ -17,7 +17,7 @@
     <header>
         <div class="contenedor">
             <div class="logo">
-                <img src="../imagenes/logo2.jpg" alt="">
+                <img src="imagenes/logo2.jpg" alt="">
             </div>
             
             <div class="menu">
@@ -26,13 +26,13 @@
                     <li>
                         <div>
                             <a href=""  class="perfil">
-                                <p> Perfil</p>
-                                <div><img src="../avatar/defect.jpg" alt=""></div>
+                                <?php echo '<strong>' . $_SESSION['usuario'] . '</strong>' ?>
+                                <div><img src="avatar/defect.jpg" alt=""></div>
                             </a>
                         </div>
                         <ul class="subm">
                             <li><a href="">Configuracion</a></li>
-                            <li><a href="">Cerrar Sesion</a></li>
+                            <li><a href="views/cerrar-sesion.php">Cerrar Sesion</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -48,7 +48,7 @@
                 <div class="contenedor-laboratorios">
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="../imagenes/lab/redes1.png" alt="HTML" /></a> </div>
+                            <a href="#"><img src="imagenes/lab/redes1.png" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Redes I
@@ -58,7 +58,7 @@
 
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="../imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
+                            <a href="#"><img src="imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="#" class="nombre">
                                 Redes II
@@ -67,7 +67,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="../imagenes/lab/oracle.jpg" alt="HTML" /></a> </div>
+                            <a href="#"><img src="imagenes/lab/oracle.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Oracle
@@ -76,7 +76,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="../imagenes/lab/iot.jpg" alt="HTML" /></a> </div>
+                            <a href="#"><img src="imagenes/lab/iot.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 IOT
@@ -85,7 +85,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="../imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
+                            <a href="#"><img src="imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Multimedia
@@ -95,7 +95,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="../imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
+                            <a href="#"><img src="imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Desarrollo
