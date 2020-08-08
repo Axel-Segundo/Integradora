@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* --- header contenido de profesor --- */
+header {
+  background: #038f2d;
+}
+header .contenedor {
+  width: 100%;
+  display: flex;
+  padding: 0px 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .contenedor .logo img {
+  width: 40px;
+  border-radius: 30px;
+}
+
+header .menu .menup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .menu .menup .perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .contenedor .menu img {
+  width: 30px;
+  border-radius: 30px;
+  display: block;
+  margin: 5px;
+}
+
+header .contenedor .menu ul {
+  list-style: none;
+}
+header .contenedor .menu .menup > li {
+  position: relative;
+  display: inline-block;
+}
+header .contenedor .menu .menup > li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+}
+header .contenedor .menu .menup > li a:hover {
+  color: #ea9738;
+  transition: all 0.3s;
+}
+header .contenedor .menu .menup .subm {
+  width: 110%;
+  height: auto;
+  position: absolute;
+  background: #f2f2f2;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(61, 55, 55);
+}
+
+header .contenedor .menu .menup .subm li a {
+  display: block;
+  padding: 15x;
+  font-size: 10px;
+  color: rgb(158, 134, 134);
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+header .contenedor .menu .menup .subm li a:hover {
+  color: #e43f0d;
+  transition: 0.5s;
+}
+
+header .contenedor .menu .menup li:hover .subm {
+  visibility: visible;
+  opacity: 1;
+}
+
+.main .contenedor {
+  height: 557px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main .contenedor .opciones {
+  list-style: none;
+  border: 2px solid #ea9738;
+  border-radius: 10px;
+}
+.main .contenedor .opciones li {
+  margin: 20px;
+  padding: 10px;
+  width: auto;
+}
+
+.main .contenedor .opciones a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(7, 7, 7);
+  
+}
+.main .contenedor .opciones a:hover {
+  color: #e43f0d;
+}
+
+
+
+.main .contenedor .imagenes img {
+  border-radius: 5px;
+  width: auto;
+  border: 2px solid #e43f0d;
+}
