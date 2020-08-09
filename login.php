@@ -1,7 +1,7 @@
 <?php
   session_start();
 
-  // Obtengo los datos cargados en el formulario de login.
+  //Obtengo los datos cargados en el formulario de login.
   $usuario= $_POST['usuario'];
   $password = $_POST['password'];
   

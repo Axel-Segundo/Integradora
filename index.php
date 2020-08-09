@@ -17,23 +17,39 @@
             <div>
                 <img src="imagenes/logo.jpg" alt="">
             </div>
-            <div    >
+            <div>
                 <a href="contenido_alumno.php">Invitado</a>
             </div>
         </div>
     </header>
-    <div class="contenedor-form">
-        <form action="login.php" method="POST" class="formulario" name="login">
-            <div class="forma">
-                <i class="icono izquierda fa fa-user"></i> <input type="text" name="usuario" class="usuario" placeholder="Usuario">
-            </div>
-            <div class="forma">
-                <i class="icono izquierda fa fa-lock"></i> <input type="password" name="password" class="password_btn" placeholder="Contraseña">
-                <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
-            </div>
-        </form>
 
-    </div>
+
+    <section class="master">
+        <div class="contenedor-form">
+            <form action="login.php" method="POST" class="formulario" name="login">
+                <div class="forma">
+                    <i class="icono izquierda fa fa-user"></i> <input type="text" name="usuario" class="usuario" placeholder="Usuario">
+                </div>
+                <div class="forma">
+                    <i class="icono izquierda fa fa-lock"></i> <input type="password" name="password" class="password_btn" placeholder="Contraseña">
+                    <i class="submit-btn fa fa-arrow-right" onclick="login.submit()"></i>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="slider">
+            <ul>
+                <li><img src="imagenes/s1.jpg" alt="" ></li>
+                <li><img src="imagenes/s2.jpg" alt="" ></li>
+                <li><img src="imagenes/s3.jpg" alt="" ></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
     <?php require 'views/footer.php'; ?>
 </body>
 

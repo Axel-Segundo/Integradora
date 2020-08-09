@@ -31,9 +31,15 @@ header .contenedor a:hover {
 
 /* Formulario*/
 
+.master{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 .contenedor-form {
-  width: 100%;
-  width: 500px;
+  width: 400px;
   margin: 11.98% auto;
 }
 
@@ -41,7 +47,7 @@ header .contenedor a:hover {
   margin: auto;
   background: #cfcff7;
   padding: 30px;
-  width: 500px;
+  
   width: 100%;
   border-radius: 5px;
 }
@@ -105,6 +111,51 @@ header .contenedor a:hover {
   color: blue;
 }
 
-footer {
-  justify-self: flex-end;
+/*Slider*/
+
+.master .slider {
+  width: 500px;
+  margin: auto;
+ overflow: hidden;
+ border-radius: 10px;
+}
+
+.master .slider ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: cambio 20s infinite alternate linear;
+  
+}
+
+.master .slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.master .slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  32% {
+    margin-left: 0;
+  }
+
+  38% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -100%;
+  }
+
+  76% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -200%;
+  }
 }
