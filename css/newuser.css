@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* --- header contenido de administrador --- */
+header {
+  background: #038f2d;
+}
+header .contenedor {
+  width: 100%;
+  display: flex;
+  padding: 0px 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .contenedor .logo img {
+  width: 40px;
+  border-radius: 30px;
+}
+
+header .menu .menup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .menu .menup .perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .contenedor .menu img {
+  width: 30px;
+  border-radius: 30px;
+  display: block;
+  margin: 5px;
+}
+
+header .contenedor .menu ul {
+  list-style: none;
+}
+header .contenedor .menu .menup > li {
+  position: relative;
+  display: inline-block;
+}
+header .contenedor .menu .menup > li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+}
+header .contenedor .menu .menup > li a:hover {
+  color: #ea9738;
+  transition: all 0.3s;
+}
+header .contenedor .menu .menup .subm {
+  width: 110%;
+  height: auto;
+  position: absolute;
+  background: #f2f2f2;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  border-radius: 5px;
+  border: 1px solid rgb(61, 55, 55);
+}
+
+header .contenedor .menu .menup .subm li a {
+  display: block;
+  padding: 15x;
+  font-size: 10px;
+  color: rgb(158, 134, 134);
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+header .contenedor .menu .menup .subm li a:hover {
+  color: #e43f0d;
+  transition: 0.5s;
+}
+
+header .contenedor .menu .menup li:hover .subm {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* body*/
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main .titulo {
+  margin: 20px;
+  align-self: center;
+}
+.main .titulo h2 {
+  font-size: 30px;
+}
+
+.main .contenedor-form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 15px;
+  width: 100%;
+}
+
+.main .contenedor-form form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100px;
+  align-items: center;
+}
+.main .contenedor-form form input,
+select, button {
+  height: 25px;
+  margin: 3px;
+  padding: 2px;
+  border-radius: 3px;
+  border: 1px solid blue;
+  width: 200px;
+}
+.main .contenedor-form input[type='submit']{
+
+    color: #fff;
+    background: #038f2d;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main .contenedor-form input[type='submit']:hover{
+    text-decoration: underline;
+
+    
+}
+
+

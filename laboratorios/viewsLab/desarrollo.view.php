@@ -64,7 +64,7 @@
                     <input type="text" name="firma" class="firma" placeholder="Firma">
                 </div>
                 <div class="f1">
-                    <button type="submit">Enviar registro</button>
+                    <input type="submit" value="Enviar Registro">
                 </div>
             </form>
         </div>
@@ -88,7 +88,7 @@
                     <input type="text" name="grupo" class="grupo" placeholder="Grupo">
                 </div>
                 <div class="f2">
-                    <button type="submit">Enviar horario</button>
+                    <input type="submit" value="Enviar horario">
                 </div>
             </form>
         </div>
