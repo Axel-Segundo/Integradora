@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* --- header contenido de profesor --- */
+  header {
+    background: #038f2d;
+    
+  }
+  header .contenedor {
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .contenedor .logo img {
+    width: 40px;
+    border-radius: 30px;
+  }
+  
+  
+  
+  header .menu .menup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  
+  header .menu .menup .perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  header .contenedor .menu img {
+    width: 30px;
+    border-radius: 30px;
+    display: block;
+    margin: 5px;
+  }
+  
+  
+  header .contenedor .menu ul {
+    list-style: none;
+    
+  
+  }
+  header .contenedor .menu .menup > li {
+    position: relative;
+    display: inline-block;
+  }
+  header .contenedor .menu .menup > li  a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  header .contenedor .menu .menup > li  a:hover {
+    color: #ea9738;
+    transition: all 0.3s;
+  }
+  header .contenedor .menu .menup .subm {
+    width: 110%;
+    height: auto;
+    position: absolute;
+    background: #f2f2f2;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    border-radius: 5px;
+    border: 1px solid rgb(61, 55, 55);
+   
+  
+  }
+  
+  header .contenedor .menu .menup .subm li a {
+    display: block;
+    padding: 15x;
+    font-size: 10px;
+    color: rgb(158, 134, 134);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  header .contenedor .menu .menup .subm li a:hover {
+  color: #e43f0d;
+  transition: .5s;
+  }
+  
+  header .contenedor .menu .menup li:hover .subm {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+/* formularios */ 
+
+.contenedorPro{
+    background: #f2f2f2;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.contenedorPro input{
+
+    margin: 5px;
+    padding: 3px;
+    height: auto;
+    width: 250px;
+    border: 1px solid #9051f5;
+    border-radius: 5px;
+
+}
+.contenedorPro div .f1, .f2{
+
+    display: flex;
+    justify-content: center;
+}
+.contenedorPro button[type='submit']{
+
+    color: #fff;
+    background: #038f2d;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    
+}
+.contenedorPro button[type='submit']:hover{
+
+    color: #ea9738;
+    
+}

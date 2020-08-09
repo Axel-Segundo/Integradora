@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio de Desarrollo</title>
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/inicio_profesor.css">
+    <link rel="stylesheet" href="../../css/general.css">
+    <link rel="stylesheet" href="../../css/laboratorios.css">
 </head>
+
 <body>
     <header>
         <?php require "headerprof.php" ?>
     </header>
+
+
     <div class="contenedorPro">
         <div class="form1">
             <form action="">
@@ -63,8 +67,9 @@
                     <button type="submit">Enviar registro</button>
                 </div>
             </form>
-        </div> 
+        </div>
         <br>
+
         <div class="form2">
             <form action="">
                 <div class="f2">
@@ -88,8 +93,11 @@
             </form>
         </div>
     </div>
+
+
     <footer>
-        <?php require "../views/footer.php" ?>
+        <?php require "../../views/footer.php" ?>
     </footer>
 </body>
+
 </html>
