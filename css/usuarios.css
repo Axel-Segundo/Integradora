@@ -1,12 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-/* --- header contenido de administrador --- */
 header {
   background: #038f2d;
 }
@@ -87,46 +79,4 @@ header .contenedor .menu .menup .subm li a:hover {
 header .contenedor .menu .menup li:hover .subm {
   visibility: visible;
   opacity: 1;
-}
-
-
-
-
-
-.main .contenedor {
-  height: 557px;
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.main .contenedor .opciones {
-  list-style: none;
-  border: 2px solid #ea9738;
-  border-radius: 10px;
-}
-.main .contenedor .opciones li {
-  margin: 20px;
-  padding: 10px;
-  width: auto;
-}
-
-.main .contenedor .opciones a {
-  text-decoration: none;
-  font-size: 25px;
-  color: rgb(7, 7, 7);
-  
-}
-.main .contenedor .opciones a:hover {
-  color: #e43f0d;
-}
-
-
-
-.main .contenedor .imagenes img {
-  border-radius: 5px;
-  width: auto;
-  border: 2px solid #e43f0d;
 }
