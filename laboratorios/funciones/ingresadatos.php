@@ -25,3 +25,5 @@ if($resultado) {
 }else {
     echo "<script>alert('registro fallido')";
 }
+
+?>

@@ -1,7 +1,4 @@
-<?php 
-include ("../BD/bd.php");
-?>
-
+<?include ("../BD/bd.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
