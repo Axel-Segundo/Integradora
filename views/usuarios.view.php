@@ -43,7 +43,7 @@
 
 
 
-        <a href="" class="crear_usuario">Crear Usuario</a>
+        <a href="crearusuarios.php" class="crear_usuario">Crear Usuario</a>
 
 
 

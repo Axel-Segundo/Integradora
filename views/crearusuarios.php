@@ -50,7 +50,7 @@
                 <input type="text" placeholder="Nombre(s)">
                 <input type="text" placeholder="Apellido Paterno">
                 <input type="text" placeholder="Apellido Materno">
-                <input type="text" placeholder="Materia">
+                
                 <select name="Tipo" id="">
                     <option value="">--seleccione tipo</option>
                     <option value="1">Profesor</option>

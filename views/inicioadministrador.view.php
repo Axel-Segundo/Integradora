@@ -45,7 +45,7 @@
         <div class="contenedor">
             <ul class="opciones">
                 <li><a href="">Horario Semanal</a> </li>
-                <li><a href="">Usuarios</a></li>
+                <li><a href="usuarios.view.php">Usuarios</a></li>
             </ul>
             <div class="imagenes">
                 <img src="../imagenes/logo.jpg" alt="">
