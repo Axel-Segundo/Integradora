@@ -127,7 +127,7 @@ select, button {
   border: 1px solid blue;
   width: 200px;
 }
-.main .contenedor-form input[type='submit']{
+.main .contenedor-form button[type='submit']{
 
     color: #fff;
     background: #038f2d;
@@ -137,7 +137,7 @@ select, button {
     cursor: pointer;
 }
 
-.main .contenedor-form input[type='submit']:hover{
+.main .contenedor-form button[type='submit']:hover{
     text-decoration: underline;
 
     

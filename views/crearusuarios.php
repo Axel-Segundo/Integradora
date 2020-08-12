@@ -45,22 +45,23 @@
         </div>
         <div class="contenedor-form">
 
-            <form action="">
-                <input type="text" placeholder="Matricula">
-                <input type="text" placeholder="Nombre(s)">
-                <input type="text" placeholder="Apellido Paterno">
-                <input type="text" placeholder="Apellido Materno">
-                
-                <select name="Tipo" id="">
-                    <option value="">--seleccione tipo</option>
-                    <option value="1">Profesor</option>
-                    <option value="2">Administrador</option>
-                </select>
-                <input type="text" placeholder="Usuario">
-                <input type="passwor" placeholder="Contraseña">
-                <input type="password" placeholder="Confirmar Contraseña">
+            <form action="registro_usuario.php" method="POST" name="login">
+                <input type="text" placeholder="Matricula" name="matricula">
+                <input type="text" placeholder="Nombre(s)" name="nombre">
+                <input type="text" placeholder="Apellido Paterno " name="appat">
+                <input type="text" placeholder="Apellido Materno" name="apmat">
 
-                <input type="submit" value="Guardar">
+                <select name="tipo" id="">
+                    <option value="NULL">--seleccione tipo</option>
+                    <option value="profesor">Profesor</option>
+                    <option value="administrador">Administrador</option>
+                </select>
+                <input type="text" placeholder="Usuario" name="usuario">
+                <input type="password" placeholder="Contraseña" name="contraseña">
+                <input type="password" placeholder="Confirmar Contraseña" name="confcont">
+                
+               
+                <button type="submit"  onclick="login.submit()">Guardar</button>
 
             </form>
         </div>
