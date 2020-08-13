@@ -1,12 +1,17 @@
 <?php
   session_start();
-
-  //Obtengo los datos cargados en el formulario de login.
-  $usuario= $_POST['usuario'];
+  include 'BD/bd.php';
+  
+  // Obtengo los datos cargados en el formulario de login.
+  $usuario = $_POST['usuario'];
   $password = $_POST['password'];
   
-  // Esto se puede remplazar por un usuario real guardado en la base de datos.
-  if($usuario == 'axel117' && $password == 'quake10350'){
+  // Consulta segura para evitar inyecciones SQL.
+  $sql = "SELECT * FROM usuarios WHERE usuario ='$usuario' and contraseña ='$password' ";
+  $resultado = $conexion->query($sql);
+  
+  // Verificando si el usuario existe en la base de datos.
+  if($resultado){
 	// Guardo en la sesión el email del usuario.
 	$_SESSION['usuario'] = $usuario;
 	
