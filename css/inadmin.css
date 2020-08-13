@@ -36,7 +36,7 @@ header .menu .menup .perfil {
 }
 header .contenedor .menu img {
   width: 30px;
-  border-radius: 30px;
+  border-radius: 100%;
   display: block;
   margin: 5px;
 }

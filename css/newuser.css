@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* --- header contenido de administrador --- */
 header {
   background: #038f2d;
 }
@@ -9,10 +19,13 @@ header .contenedor {
   align-items: center;
   justify-content: space-between;
 }
+
+
 header .contenedor .logo img {
   width: 40px;
   border-radius: 30px;
 }
+
 header .contenedor .logo a{
   color: #fff;
   font-size: 15px;
@@ -37,7 +50,7 @@ header .menu .menup .perfil, header .contenedor .logo {
 }
 header .contenedor .menu img {
   width: 30px;
-  border-radius: 30px;
+  border-radius: 100%;
   display: block;
   margin: 5px;
 }
@@ -90,77 +103,59 @@ header .contenedor .menu .menup li:hover .subm {
   opacity: 1;
 }
 
-/* ------- Body ----------------*/
-
+/* body*/
 .main {
-  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 35px auto;
+}
+.main .titulo {
+  margin: 20px;
+  align-self: center;
+}
+.main .titulo h2 {
+  font-size: 30px;
+}
+
+.main .contenedor-form {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 15px;
+  width: 100%;
+}
+
+.main .contenedor-form form {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
-  margin: 50px;
-  
-}
-.main .contenedor {
-  margin: 10px;
-  background-color: #ea9738;
-  width: 100%;
-  padding: 30px;
-  border-radius: 5px;
-}
-
-.main .contenedor .titulo {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  padding: 10px;
-}
-
-.main .contenedor .encabezado {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.main .contenedor .encabezado .header {
-  padding: 5px;
-  font-size: 15px;
+  width: 100px;
   align-items: center;
-  width: 20%;
-  text-align: center;
 }
-.main .contenedor .datos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background: #da9f5d;
-  width: 100%;
-  align-items: center;
-  width: 100%;
-}
-
-.main .contenedor .dato {
-  width: 20%;
-  text-align: center;
-  margin: 5px;
-  padding: 5px;
-  
-}
-
-.main  a {
-
-  color: #fff;
-  background: #038f2d;
-  border: none;
-  padding: 5px;
+.main .contenedor-form form input,
+select, button {
+  height: 25px;
+  margin: 3px;
+  padding: 2px;
   border-radius: 3px;
-  cursor: pointer;
-  text-decoration: none;
-  margin: 30px;
-  margin-top: 60px;
+  border: 1px solid blue;
+  width: 200px;
+}
+.main .contenedor-form button[type='submit']{
+
+    color: #fff;
+    background: #038f2d;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
-.main a:hover{
-  text-decoration: underline;
+.main .contenedor-form button[type='submit']:hover{
+    text-decoration: underline;
+
+    
 }
+
+

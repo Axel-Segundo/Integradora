@@ -16,7 +16,8 @@ body {
 footer {
 	background: #f05011;
     color: #fff;
-    vertical-align: bottom;
+	vertical-align: bottom;
+	height: auto;
 }
 
 footer .informacion {
