@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/newuser.css">
+    <link rel="stylesheet" href="../css/newuser1.css">
 
     <title>Nuevo Usuario</title>
 </head>
@@ -16,6 +16,7 @@
         <div class="contenedor">
             <div class="logo">
                 <img src="../imagenes/logo2.jpg" alt="">
+                <a href="usuarios.view.php">Atras</a>
             </div>
 
             <div class="menu">

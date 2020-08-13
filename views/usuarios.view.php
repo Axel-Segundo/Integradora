@@ -1,3 +1,7 @@
+<?php
+require '../BD/bd.php';
+$usuarios ='SELECT * FROM usuarios'
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/usuarios.css">
+    <link rel="stylesheet" href="../css/usuarios1.css">
     <title>Usuario</title>
 </head>
 
@@ -15,6 +19,7 @@
         <div class="contenedor">
             <div class="logo">
                 <img src="../imagenes/logo2.jpg" alt="">
+                <a href="inicioadministrador.view.php">Atras</a>
             </div>
 
             <div class="menu">
@@ -39,7 +44,28 @@
     </header>
 
     <section class="main">
-        <!--Todo el codigo de consulta de los usuarios -->
+        <div class="contenedor">
+            <div class="titulo">USUARIOS</div>
+            <div class="encabezado">
+                <div class="header"><h3>Matricula</h3></div>
+                <div class="header"><h3>Nombre</h3></div>
+                <div class="header"><h3>Apellido Paterno</h3></div>
+                <div class="header"><h3>Apellido Materno</h3></div>
+                <div class="header"><h3>Usuario</h3></div>
+            </div>
+            <?php $resultado = mysqli_query($conexion, $usuarios);
+            while ($row = mysqli_fetch_assoc($resultado)) { ?>
+                <div class="datos">
+                    <div class="dato"><?php echo $row["matricula"]; ?></div>
+                    <div class="dato"><?php echo $row["nombre"]; ?></div>
+                    <div class="dato"><?php echo $row["ap_mat"]; ?></div>
+                    <div class="dato"><?php echo $row["ap_mat"]; ?></div>
+                    <div class="dato"><?php echo $row["usuario"]; ?></div>
+                </div>
+            <?php } ?>
+
+        </div>
+
 
 
 

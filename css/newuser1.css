@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 /* --- header contenido de administrador --- */
 header {
   background: #038f2d;
@@ -18,9 +19,22 @@ header .contenedor {
   align-items: center;
   justify-content: space-between;
 }
+
+
 header .contenedor .logo img {
   width: 40px;
   border-radius: 30px;
+}
+
+header .contenedor .logo a{
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 10px;
+}
+header .contenedor .logo a:hover {
+  color: #ea9738;
+  transition: all 0.3s;
 }
 
 header .menu .menup {
@@ -29,7 +43,7 @@ header .menu .menup {
   align-items: center;
 }
 
-header .menu .menup .perfil {
+header .menu .menup .perfil, header .contenedor .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -93,6 +107,7 @@ header .contenedor .menu .menup li:hover .subm {
 .main {
   display: flex;
   flex-direction: column;
+  margin: 35px auto;
 }
 .main .titulo {
   margin: 20px;
