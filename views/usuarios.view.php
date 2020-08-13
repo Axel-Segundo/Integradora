@@ -1,6 +1,6 @@
 <?php
 require '../BD/bd.php';
-$usuarios ='SELECT * FROM usuarios'
+$usuarios ='SELECT * FROM usuarios';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -69,7 +69,7 @@ $usuarios ='SELECT * FROM usuarios'
 
 
 
-        <a href="crearusuarios.php" class="crear_usuario">Crear Usuario</a>
+        <a href="registro_usuario.php" class="crear_usuario">Crear Usuario</a>
 
 
 

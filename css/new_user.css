@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 /* --- header contenido de administrador --- */
 header {
   background: #038f2d;
@@ -20,13 +19,12 @@ header .contenedor {
   justify-content: space-between;
 }
 
-
 header .contenedor .logo img {
   width: 40px;
   border-radius: 30px;
 }
 
-header .contenedor .logo a{
+header .contenedor .logo a {
   color: #fff;
   font-size: 15px;
   text-decoration: none;
@@ -43,7 +41,8 @@ header .menu .menup {
   align-items: center;
 }
 
-header .menu .menup .perfil, header .contenedor .logo {
+header .menu .menup .perfil,
+header .contenedor .logo {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -123,18 +122,24 @@ header .contenedor .menu .menup li:hover .subm {
   margin: auto;
   margin-bottom: 100px;
   padding: 15px;
-  width: 100%;
+  width: auto;
+  border: 2px solid #ea9738;
+  border-radius: 5px;
 }
 
 .main .contenedor-form form {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100px;
+  width: 100% ;
+  
   align-items: center;
+  
+  
 }
 .main .contenedor-form form input,
-select, button {
+select,
+button {
   height: 25px;
   margin: 3px;
   padding: 2px;
@@ -142,20 +147,38 @@ select, button {
   border: 1px solid blue;
   width: 200px;
 }
-.main .contenedor-form button[type='submit']{
-
-    color: #fff;
-    background: #038f2d;
-    border: none;
-    padding: 5px;
-    border-radius: 3px;
-    cursor: pointer;
+.main .contenedor-form button[type="submit"] {
+  color: #fff;
+  background: #038f2d;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-.main .contenedor-form button[type='submit']:hover{
-    text-decoration: underline;
-
-    
+.main .contenedor-form button[type="submit"]:hover {
+  text-decoration: underline;
 }
 
+.main .contenedor-form .contenedor_li {
+  height: 30px;
+  width: 100%;
+  display: block;
+  background: #038f2d00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .contenedor-form ul li .registrado {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #06f14c;
+  list-style: none;
+}
+.main .contenedor-form ul li {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fa0808;
+  list-style: none;
+}
 
