@@ -69,8 +69,8 @@ include '../BD/bd.php';
                             $apellido1 = filter_var( $_POST["appat"], FILTER_SANITIZE_STRING);
                             $apellido2 = filter_var( $_POST["apmat"], FILTER_SANITIZE_STRING);
                             $tipo = filter_var( $_POST["tipo"], FILTER_SANITIZE_STRING);
-                            $usuario = $_POST["usuario"];
-                            $contraseña = $_POST["contraseña"];
+                            $usuario = filter_var( $_POST["usuario"], FILTER_SANITIZE_STRING);
+                            $contraseña = filter_var( md5($_POST["contraseña"]), FILTER_SANITIZE_STRING);
                             $confcont = filter_var( md5($_POST["confcont"]), FILTER_SANITIZE_STRING);
                             $avatar = 'default';
 
