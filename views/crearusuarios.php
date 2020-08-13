@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/newuser.css">
+    <link rel="stylesheet" href="../css/nuevo_usuario.css">
 
     <title>Nuevo Usuario</title>
 </head>
