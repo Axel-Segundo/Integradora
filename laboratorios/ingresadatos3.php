@@ -23,4 +23,4 @@ $firma = $_POST['firma'];
 $subir = mysqli_query($conexion,"INSERT INTO `horarios` (`id`, `laboratorio`, `profesor`, `materia`, `carrera`, `cuatrimestre`, `grupo`, `fecha`, `h_entrada`, `h_salida`, `total_h`, `equip_util`, `observaciones`, `firma`) VALUES (NULL, '$lab', '$prof', '$mat', '$car', '$cuat', '$grupo', '$fecha', '$entrada', '$salida', '$total', '$equipo', '$obsrvaciones', '$firma');");
 }
 
-require header('Location:redesi.php');
+require header('Location:oracle.php');

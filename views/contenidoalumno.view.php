@@ -30,7 +30,7 @@
                 <div class="contenedor-laboratorios">
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="imagenes/lab/redes1.png" alt="HTML" /></a> </div>
+                            <a href="laboratorios/mostrar.php"><img src="imagenes/lab/redes1.png" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Redes I
@@ -40,7 +40,7 @@
 
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
+                            <a href="laboratorios/mostrar.php"><img src="imagenes/lab/redes2.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="#" class="nombre">
                                 Redes II
@@ -49,7 +49,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="imagenes/lab/oracle.jpg" alt="HTML" /></a> </div>
+                            <a href="laboratorios/mostrar.php"><img src="imagenes/lab/oracle.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Oracle
@@ -58,7 +58,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="imagenes/lab/iot.jpg" alt="HTML" /></a> </div>
+                            <a href="laboratorios/mostrar.php"><img src="imagenes/lab/iot.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 IOT
@@ -67,7 +67,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
+                            <a href="laboratorios/mostrar.php"><img src="imagenes/lab/multimedia1.jpg" alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Multimedia
@@ -77,7 +77,7 @@
                     </div>
                     <div class="lab">
                         <div class="thumb">
-                            <a href="#"><img src="imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
+                            <a href="laboratorios/mostrar.php"><img src="imagenes/lab/multimedia2.jpg   " alt="HTML" /></a> </div>
                         <div class="descripcion">
                             <a href="" class="nombre">
                                 Desarrollo

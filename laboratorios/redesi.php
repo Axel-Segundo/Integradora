@@ -1,3 +1,8 @@
+<?php session_start(); ?>
+<?php
+    include ("../BD/bd.php");
+    $horario = "SELECT * FROM horarios WHERE laboratorio = 1";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +12,7 @@
     <title>Laboratorio de Redes I</title>
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/laboratorios.css">
+    <link rel="stylesheet" href="mostrar.css">
 </head>
 
 <body>
@@ -82,6 +88,32 @@
             </form>
         </div>
         <br>
+    </div>
+    <div class="container_table">
+        <div class="table_title">Datos laboratorios</div>
+        <div class="modificar">Modificar</div>
+        <div class="table_header">profesor</div>
+        <div class="table_header">materia</div>
+        <div class="table_header">carrera</div>
+        <div class="table_header">grupo</div>
+        <div class="table_header">Entrada</div>
+        <div class="table_header">Salida</div>
+        <div class="table_header">Equipo utilizado</div>
+        <div class="table_header">Observaciones</div>
+
+        <?php $horario = mysqli_query($conexion, $horario);
+        while($row=mysqli_fetch_assoc($horario)) { ?>
+       
+        <div class="item"><?php echo $row["profesor"]?></div>
+        <div class="item"><?php echo $row["materia"]?></div>
+        <div class="item"><?php echo $row["carrera"]?></div>
+        <div class="item"><?php echo $row["grupo"]?></div>
+        <div class="item"><?php echo $row["h_entrada"]?></div>
+        <div class="item"><?php echo $row["h_salida"]?></div>
+        <div class="item"><?php echo $row["equip_util"]?></div>
+        <div class="item"><?php echo $row["observaciones"]?></div>
+        <?php }?>
+
     </div>
     <footer>
         <?php require "../views/footer.php" ?>

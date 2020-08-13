@@ -1,5 +1,5 @@
 <?php
-    include ("../../BD/bd.php");
+    include ("../BD/bd.php");
     $horario = "SELECT * FROM horarios";
 ?>
 <!DOCTYPE html>
@@ -9,9 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="mostrar.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/interfaz_alumno.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="contenedor">
+            <div>
+                <img src="../imagenes/logo.jpg" alt="">
+            </div>
+            <div>
+                <a href="../index.php">Inicio</a>
+            </div>
+        </div>
+    </header>
     <div class="container_table">
         <div class="table_title">Datos laboratorios</div>
         <div class="modificar">Modificar</div>
@@ -38,7 +50,9 @@
         <?php }?>
 
     </div>
-
+    <footer>
+        <?php require '../views/footer.php';?>
+    </footer>
     
 </body>
 </html>
