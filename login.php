@@ -18,19 +18,13 @@ if (count($resultado) > 0) {
 
 
 
-  if ($resultado[0]['tipo'] == 'administrador') {
-    $_SESSION['usuario'] = $usuario;
-    // Redirecciono al usuario a la página principal del sitio.
-    header("HTTP/1.1 302 Moved Temporarily");
-    header("Location: view/inicioprofesor.view.php");
 
-  } else {
 
-    // Guardo en la sesión el email del usuario.
-    $_SESSION['usuario'] = $usuario;
-    // Redirecciono al usuario a la página principal del sitio.
-    header("HTTP/1.1 302 Moved Temporarily");
-    header("Location: contenido_profesor.php");
-  }
+  // Guardo en la sesión el email del usuario.
+  $_SESSION['usuario'] = $usuario;
+  // Redirecciono al usuario a la página principal del sitio.
+  header("HTTP/1.1 302 Moved Temporarily");
+  header("Location: contenido_profesor.php");
+} else {
   echo 'El usuario o contraseña es incorrecto, <a href="index.php">vuelva a intenarlo</a>.<br/>';
 }
