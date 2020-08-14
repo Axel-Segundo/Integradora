@@ -15,7 +15,7 @@
                             </a>
                         </div>
                         <ul class="subm">
-                            <li><a href="">Configuracion</a></li>
+                            <li><a href="../views/inicioadministrador.view.php">Configuracion</a></li>
                             <li><a href="../views/cerrar-sesion.php">Cerrar Sesion</a></li>
                         </ul>
                     </li>

@@ -44,7 +44,7 @@
     <section class="main">
         <div class="contenedor">
             <ul class="opciones">
-                <li><a href="">Horario Semanal</a> </li>
+                <li><a href="../laboratorios/mostrar2.php">Horario Semanal</a> </li>
                 <li><a href="usuarios.view.php">Usuarios</a></li>
             </ul>
             <div class="imagenes">
